@@ -1,9 +1,9 @@
-
 export enum Page {
   DASHBOARD = 'DASHBOARD',
   HISTORY = 'HISTORY',
   PAY = 'PAY',
   SETTINGS = 'SETTINGS',
+  CARDS = 'CARDS',
 }
 
 export type TransactionType = 'SENT' | 'RECEIVED' | 'TOPUP';

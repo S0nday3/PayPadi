@@ -11,6 +11,7 @@ import ReceiveMoneyModal from './components/ReceiveMoneyModal';
 import { createCharge, createTransfer, login, signUp } from './paypadi';
 import AuthScreen from './components/auth/AuthScreen';
 import KYCModal from './components/auth/KYCModal';
+import Cards from './components/Cards';
 
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -138,6 +139,8 @@ export default function App() {
         );
       case Page.HISTORY:
         return <TransactionHistory transactions={transactions} />;
+      case Page.CARDS:
+        return <Cards />;
       case Page.SETTINGS:
         return <Settings user={user} onLogout={handleLogout} />;
       default:
