@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Copy of Chipper Wallet with PayPadi",
+  "description": "A mobile-first wallet app for digital payments. This version integrates the PayPadi payment gateway, allowing users to top up their wallets via Card, USSD, or Bank Transfer.",
+  "requestFramePermissions": []
+}
